@@ -1,0 +1,209 @@
+.header-index.header-projects {
+  height: auto;
+  color: #010101;
+}
+
+.footer.other-footer {
+  background-color: #FFFFFF;
+}
+
+
+.contacts-header > .contacts-header__text > .image {
+    width: 100%;
+    margin: 30px 0;
+  }
+  
+  .contacts-header > .contacts-header__text > .image > img {
+    max-width: 100px;
+    width: 100%;
+  }
+
+
+
+.container.shadow-frame {
+    margin-top: 59px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contacts-header {
+    display: flex;
+    padding: 10px 0 0 10px;
+  }
+  .contacts-header > .contacts-header__text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Tinos', sans-serif;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 55px;
+    font-size: 36px;
+  }
+  
+  .contacts-header > .contacts-title_Esina > .contacts-header__text > label {
+    display: block;
+    width: 100%;
+    font-size: 36px;
+  }
+  
+  .contacts-header > .contacts-header__text > small {
+    display: block;
+    max-width: 340px;
+    width: 100%;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .contacts-header-image {
+      width: max-content;
+  }
+
+  .contacts-header-image > img {
+    width: 406px;
+}
+  
+  .contacts-header p {
+    font-family: 'Viaoda Libre', sans-serif;
+    font-size: 18px;
+    margin-bottom: 22px;
+  }
+  
+  
+  .contacts-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .contacts-bottom > .contact {
+    max-width: 420px;
+    min-height: 390px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: black;
+    padding: 0 50px;
+    margin-top: 20px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  
+  .contacts-bottom > .contact > label {
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 29px;
+  }
+  
+  .contacts-bottom > .contact > .post {
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 20px;
+    height: 100%;
+  }
+
+.contact  p{
+      margin-top: 20px;
+      font-size: 24px;
+      line-height: 28px;
+  }
+
+
+
+
+
+  @media screen and (max-width: 900px) {
+
+.container {
+    padding: 0px;
+}
+
+  .container.shadow-frame {
+    width: 96%;
+    margin-top: 6px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25), -2px -2px 4px rgba(0, 0, 0, 0.25);
+}
+
+  .contacts-header {
+    padding: 5px 5px 0 5px;
+}
+
+  .contacts-header > .contacts-header__text {
+    padding: 0px;
+    line-height: 21px;
+    font-size: 18px;
+  }
+
+    .contacts-header-image > img {
+      width: 147px;
+  }
+
+  .contacts-header > .contacts-header__text > .contacts-title_Esina {
+    width: 60%;
+  }
+
+
+  .contacts-header > .contacts-header__text > .contacts-title_Esina >  label {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .contacts-header > .contacts-header__text > small {
+    max-width: 340px;
+    width: 100%;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 5px;
+  }
+
+  .contacts-header > .contacts-header__text > .image {
+    width: 100%;
+    margin: 7px 0;
+}
+
+.contacts-header p {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+#contacts-title_Esina-desc2-mobile {
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+.contacts-bottom {
+  width: 96%;
+}
+
+.contacts-bottom > .contact {
+  max-width: 49%;
+  min-height: 188px;
+  padding: 0 23px;
+  margin-top: 5px;
+  background: #FFFFFF;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25), -2px -2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contacts-bottom > .contact > .post {
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.contacts-bottom > .contact > label {
+  font-size: 12px;
+  margin-bottom: 10px;
+  line-height: 14px;
+}
+
+.contact p {
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+  }

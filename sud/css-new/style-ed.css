@@ -1,0 +1,596 @@
+p, a, small, label {
+	color: #010101;
+}
+
+.header-education {
+	width: 100%;
+}
+
+
+.header-education > .header-ed-title {
+	display: block;
+	padding-top: 60px;
+}
+
+.header-education > .header-ed-title > label {
+	font-size: 144px;
+	line-height: 172px;
+}
+
+.header-education > .header-ed-title > .header-ed-menu {
+	width: 100%;
+    margin: 30px auto 100px;
+    padding: 20px 0 0;
+    border-top: 3px #101010 solid;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.header-education > .header-ed-title > .header-ed-menu > a {
+	font-size: 18px;
+	line-height: 21px;
+	padding: 0 20px;
+	cursor: pointer;
+}
+
+.header-education > .header-ed-title > .header-ed-menu > a:hover {
+	color: #0A6CFF;
+}
+
+
+.header-education > .header-ed-image-block {
+	position: relative;
+	width: 100%;
+	height: max-content;
+}
+
+.header-education > .header-ed-image-block > img {
+	position: relative;
+	width: 100%;
+	height: 780px;
+}
+
+.header-education > .header-ed-image-block > .header-ed-image-button {
+	width: 100%;
+	position: absolute;
+	top: -32px;
+	display: flex;
+	justify-content: center;
+}
+
+.header-education > .header-ed-image-block > .header-ed-image-button button {
+	width: max-content;
+	height: max-content;
+	border: 0;
+	background-color: rgba(0,0,0,0);
+}
+
+
+.header-education > .header-ed-content {
+	overflow: hidden;
+	text-align: left;
+	margin: 50px auto 0;
+}
+
+.header-education > .header-ed-content > p {
+	font-size: 36px;
+	line-height: 43px;
+}
+
+.header-education > .header-ed-content > .button-store-block {
+	width: 100%;
+	margin: 50px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.header-education > .header-ed-content > .button-store-block img {
+	width: auto;
+	height: auto;
+	margin-right: 50px;
+}
+
+.header-education > .header-ed-content > .sheikh-block-second {
+	margin: 50px 0;
+}
+
+.header-education > .header-ed-content > .sheikh-block {
+	background: #FFFFFF;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(0, 0, 0, 0.25);
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.header-education > .header-ed-content > .sheikh-block > label{
+	width: 100%;
+	margin: 20px 0;
+	text-align: right;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+}
+
+.header-education > .header-ed-content > .sheikh-block > .sheikh-row {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.header-education > .header-ed-content > .sheikh-block > .sheikh-row > p {
+	font-size: 24px;
+	line-height: 29px;
+	padding-left: 40px;
+}
+
+
+.header-education > .header-ed-content > .sheikh-block-second > .sheikh-row > p {
+	padding-left: 0;
+	padding-right: 40px;
+}
+
+
+
+.ed-content > .ed-homework-block {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.ed-content > .ed-homework-block > label {
+	font-size: 36px;
+	line-height: 43px;
+}
+
+.ed-content > .ed-homework-block > .ed-homework-title {
+	margin: 20px 0 50px;
+	overflow: hidden;
+	text-align: left;
+	background-image: url('/public/images-new/education/homework-header.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.ed-content > .ed-homework-block > .ed-homework-title > p {
+	font-size: 24px;
+	line-height: 29px;
+	color: #FFFFFF;
+	padding-right: 30px;
+}
+
+.ed-content > .ed-homework-block > .ed-homework-text {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.ed-content > .ed-homework-block > .ed-homework-text > .ed-homework-text-child {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	text-align: right;
+}
+
+.ed-content > .ed-homework-block > .ed-homework-text > .ed-homework-text-child:first-child {
+	align-items: flex-start;
+	text-align: left;
+}
+
+.ed-content > .ed-homework-block > .ed-homework-text > .ed-homework-text-child > label {
+	margin-bottom: 50px;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 43px;
+}
+
+.ed-content > .ed-homework-block > .ed-homework-text > .ed-homework-text-child > p {
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.ed-content > .ed-homework-block > .ed-homework-text > .ed-homework-text-child > h3 {
+	margin: 20px 0;
+	font-size: 64px;
+	line-height: 77px;
+}
+
+.ed-content > .ed-homework-block > .ed-homework-text > .ed-homework-text-child > small {
+	font-size: 18px;
+	line-height: 21px;
+	color: #777777;
+}
+
+
+
+.ed-mission-block {
+	margin: 150px 0 50px;
+}
+
+.ed-mission-block > .ed-photo-title {
+	height: 530px !important;
+}
+
+.ed-mission-block > .ed-mission-content {
+	margin: 50px auto;
+}
+
+.ed-mission-block > .ed-mission-content > p{
+	text-align: left;
+	font-size: 36px;
+	line-height: 43px;
+}
+
+
+
+.ed-app-block {
+	margin-top: 150px;
+}
+
+.ed-app-block > .ed-photo-title {
+	height: 740px !important;
+}
+
+
+.ed-managment-block {
+	margin-top: 150px;
+}
+
+.ed-managment-block > .ed-photo-title {
+	height: 530px !important;
+}
+
+.ed-managment-block > .ed-managment-content {
+	
+}
+
+.ed-managment-block > .ed-managment-content > p, .ed-class-block > .ed-class-content > p {
+	margin-top: 50px;
+	font-size: 36px;
+	line-height: 43px;
+}
+
+.ed-class-block {
+	margin-top: 150px;
+}
+
+.ed-class-block > .ed-class-content > .ed-center-text:last-child {
+	margin-top: 0;
+}
+
+.ed-class-block > .ed-class-content > .ed-center-text > img {
+	width: 200px;
+	height: 200px;
+}
+
+
+.ed-center-text {
+	margin-top: 50px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.ed-center-text > label{
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 43px;
+	margin-bottom: 30px;
+}
+
+.ed-center-text > p{
+	width: 75%;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+}
+
+
+.ed-row {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-top: 50px;
+}
+
+.ed-row > .ed-row-child {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	text-align: center;
+	align-items: center;
+}
+
+.ed-row > .ed-row-child-ul > p {
+	padding: 20px 12% !important;
+}
+
+.ed-row > .ed-row-child > label {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 43px;
+	margin-bottom: 30px;
+}
+
+.ed-row > .ed-row-child > p {
+	font-size: 24px;
+	line-height: 29px;
+	text-align: center;
+	padding: 0 12%;
+}
+
+
+.ed-photo-title {
+	display: block;
+	width: auto;
+	height: 500px;
+}
+
+.ed-photo-title > img {
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: -webkit-fill-available !important;
+	z-index: -1;
+}
+ 
+.ed-photo-title > .education-title-parent {
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+}
+
+.ed-photo-title > .education-title-parent > .education-title-parent-child {
+	overflow: hidden;
+}
+
+.ed-photo-title > .education-title-parent > .education-title-parent-child > label{
+	font-size: 144px;
+	line-height: 172px;
+	color: #FFFFFF;
+}
+
+
+
+
+.footer.other-footer {
+	background-color: #FFFFFF;
+}
+
+
+.animate-from-left {
+	transform: translateX(-200%);
+	transition: transform 1s ease 0.1s;
+}
+
+
+._anim-items._active .animate-from-left {
+	transform: translateY(0%);
+}
+
+.animate-from-right {
+	transform: translateX(200%);
+	transition: transform 1s ease 0.1s;
+}
+
+._anim-items._active .animate-from-right {
+	transform: translateY(0%);
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+	.projects-olimpia-title-img > .projects-olimpia-title-img-button button {
+		margin-top: -15px;
+	}
+
+	.projects-olimpia-title-img > .projects-olimpia-title-img-button button img {
+		width: 30px;
+		height: 30px;
+	}
+
+	.header-education > .header-ed-title {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-top: 20px;
+	}
+
+	.header-education > .header-ed-title > label {
+		font-size: 48px;
+		line-height: 57px;
+		text-align: center;
+	}
+
+	.header-education > .header-ed-title > .header-ed-menu {
+		flex-wrap: wrap;
+		margin-top: 0;
+	}
+
+	.header-education > .header-ed-title > .header-ed-menu a {
+		margin: 10px 0;
+	}
+
+	.header-education > .header-ed-image-block > img {
+		height: 165px;
+	}
+
+	.header-education > .header-ed-content > p {
+		font-size: 12px;
+		line-height: 14px;
+	}
+
+	.header-education > .header-ed-content > .button-store-block img {
+		width: 170px;
+		height: 50px;
+	}
+
+	.header-education > .header-ed-content > .sheikh-block > .sheikh-row {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.header-education > .header-ed-content > .sheikh-block > .sheikh-row > p {
+		padding: 0;
+		font-size: 12px;
+		line-height: 14px;
+		margin: 10px 0;
+	}
+
+	.header-education > .header-ed-content > .sheikh-block > label {
+		font-size: 12px;
+		line-height: 14px;
+	}
+
+	.ed-content > .ed-homework-block > .ed-homework-title > p {
+		font-size: 12px;
+		line-height: 14px;
+	}
+
+	.ed-content > .ed-homework-block > .ed-homework-title {
+		padding: 10px;
+	}
+
+	.ed-content > .ed-homework-block > .ed-homework-text > .ed-homework-text-child > label {
+		margin-bottom: 30px;
+		font-size: 18px;
+		line-height: 21px;
+	}
+
+	.ed-content > .ed-homework-block > .ed-homework-text > .ed-homework-text-child > p {
+		font-size: 12px;
+		line-height: 14px;
+	}
+
+	.ed-content > .ed-homework-block > .ed-homework-text > .ed-homework-text-child h3 {
+		font-size: 24px;
+		line-height: 29px;
+	}
+
+	.ed-content > .ed-homework-block > .ed-homework-text {
+		flex-direction: column;
+	}
+
+	.ed-content > .ed-homework-block > .ed-homework-text > .ed-homework-text-child:first-child {
+		flex-direction: column;
+	}
+
+	.ed-content > .ed-homework-block > .ed-homework-text > .ed-homework-text-child {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.ed-content > .ed-homework-block > .ed-homework-text > .ed-homework-text-child-mobile {
+		width: 100%;
+		display: flex !important;
+		flex-direction: row;
+		justify-content: space-around;
+		margin-top: 20px;
+	}
+
+	.ed-content > .ed-homework-block > .ed-homework-text > .ed-homework-text-child.ed-homework-text-child-mobile > div {
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	.ed-mission-block {
+		margin-top: 30px;
+	}
+
+	.ed-mission-block > .ed-photo-title {
+		height: 125px !important;
+	}
+
+	.ed-photo-title > .education-title-parent > .education-title-parent-child > label {
+		font-size: 36px;
+		line-height: 43px;
+	}
+
+	.ed-mission-block > .ed-mission-content > p {
+		font-size: 12px;
+		line-height: 14px;
+	}
+
+	.ed-row {
+		flex-direction: column;
+		margin-top: 20px;
+	}
+
+	.ed-row > .ed-row-child {
+		width: 100%;
+	}
+
+	.ed-row > .ed-row-child > label {
+		margin: 10px 0;
+		font-size: 18px;
+		line-height: 21px;
+	}
+
+	.ed-row > .ed-row-child > p {
+		font-size: 12px;
+		line-height: 14px;
+		padding: 0 20px;
+	}
+
+	.ed-app-block > .ed-photo-title {
+		height: 170px !important;
+	}
+
+	.ed-center-text > label {
+		font-size: 18px;
+		line-height: 21px;
+		margin-bottom: 10px;
+	}
+
+	.ed-center-text > p {
+		font-size: 12px;
+		line-height: 14px;
+	}
+
+
+	.ed-managment-block {
+		margin-top: 30px;
+	}
+
+	.ed-managment-block > .ed-photo-title {
+		height: 120px !important;
+	}
+
+	.ed-managment-block > .ed-managment-content > p, .ed-class-block > .ed-class-content > p {
+		font-size: 12px;
+		line-height: 14px;
+		margin-top: 20px;
+	}
+
+	.ed-row > .ed-row-child-ul > p {
+		padding: 8px 10px !important;
+	}
+
+
+	.ed-class-block {
+		margin-top: 30px;
+	}
+
+	.ed-photo-title {
+		height: 130px !important;
+	}
+
+}

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="preconnect" href="https://fonts.googleapis.com"> 
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="icon" href="/public/images/site-logo.png" type="image/x-icon">
+		<link rel="stylesheet" href="public/css-new/style-new.css?v=2">
+		<link rel="stylesheet" href="public/css-new/style-project.css?v=4">
+		<title>Национальная судебно-экспертная экологическая палата</title>
+	</head>
+
+	<body>
+		<div class="container full-sized header-index header-other">
+			<div class="header-top header-top-other">
+				<div class="header-top-content">
+					<div class="header-logo">
+						<img src="/public/images-new/logo.png">
+					</div>
+					<div class="header-top-center">
+						<label id="main_name">Национальная судебно-экспертная палата</label>
+						<ul class="header-menu desktop-view">
+							<li><a id="header-menu_main" href="/">ГЛАВНАЯ</a></li>
+							<li><a id="header-menu_news" href="/news">НОВОСТИ</a></li>
+							<li><a id="header-menu_projects" href="/projects">НАШИ ПРОЕКТЫ</a></li>
+							<li><a id="header-menu_contacts" href="/contacts">КОНТАКТЫ</a></li>
+						</ul>
+					</div>
+					<button id="languageButtonNew" class="blue-text" style="display: none;">RU</button>
+					<button id="burger-button" class="mobile-view"><img src="/public/images-new/burger-black.svg"></button>
+				</div>
+			</div>
+		</div>
+
+		<div class="container full-sized">
+			<div class="container news-slider-indicator"></div>
+			<div class="container news-slider-block">
+				<div class="news-slider">
+					<div class="slider-wrapper">
+						{% for new in hot_news %}
+							<div class="in-slide" data-url="{{ new.url }}">
+								<div class="slider-info">
+									<label>{{ new.short_description }}</label>
+									<small>{{ new.title }}</small>
+								</div>
+								<img src="{{ new.logo.url }}" alt=""><!--  -->
+								<button><img src="/public/images-new/slider-button-go.jpg" alt=""></button>
+							</div>
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+		<div class="container full-sized">
+			<div class="container mobile-view">
+				<div class="news-buttons-mobile">
+					<button id="news-button1" class="news-button">Последние новости</button>
+					<button id="news-button2" class="news-button">Новости партнеров</button>
+				</div>
+			</div>
+			<div class="container news-container">
+				<div class="main-news-block">
+					{% for new in header_news %}
+						<a href="{{ new.url }}">
+							<div class="news-separately">
+								<img src="{{ new.logo.url }}">
+								<div class="news-separately-text">
+									<p>{{ new.title }}</p>
+									<small>{{ new.created_at|date:"d.m.Y" }}</small>
+								</div>
+							</div>
+						</a>
+					{% endfor %}
+				</div>
+				<div class="partners-news-block">
+					<label class="desktop-view">Новости партнеров</label>
+					{% for p_new in partner_new %}
+						<a href="{{ p_new.url }}">
+							<div class="news-separately">
+								<img src="{{ p_new.logo.url }}">
+								<div class="news-separately-text">
+									<p>{{ p_new.title }}</p>
+									<small>{{ new.created_at|date:"d.m.Y" }}</small>
+								</div>
+							</div>
+						</a>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+
+		<div id="burger-block" class="mobile-view">
+			<div class="burger-block">
+				<div class="burger-menu">
+					<button id="close-button"><img src="/public/images-new/close.png"></button>
+					<ul class="burger-li">
+						<li class="menu-li-line1"><a id="header-menu_main-mobile" href="/">Главная</a></li>
+						<li class="menu-li-line2"><a id="header-menu_news-mobile" href="/news">Новости</a></li>
+						<li class="menu-li-line3"><a id="header-menu_projects-mobile" href="/projects">Наши проекты</a></li>
+						<li class="menu-li-line4"><a id="header-menu_contacts-mobile" href="/contacts">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="footer">
+					<div class="footer-top">
+						<a href="email:sudekoexpert@mail.ru">sudekoexpert@mail.ru</a>
+					</div>
+					<div class="footer-down">
+						<img src="/public/images-new/logo.png">
+						<p id="footer-new">Copyright © 2021 Судебно-экспертная палата.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="footer other-footer">
+			<div class="footer-top">
+				<a href="email:sudekoexpert@mail.ru">sudekoexpert@mail.ru</a>
+			</div>
+			<div class="footer-down">
+				<img src="/public/images-new/logo.png">
+				<p id="footer-new">Copyright © 2021 Судебно-экспертная палата.</p>
+			</div>
+		</div>
+
+	</body>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="/public/js/script.js?v=43"></script>
+	<script type="text/javascript">
+		$( document ).ready(function() {
+			$('#news-button1').addClass('active-news-button');
+			$('.main-news-block').addClass('active-news-block');
+			$('.partners-news-block').addClass('not-active');
+
+			$('#news-button1').click(function(){
+				$('#news-button2').removeClass('active-news-button');
+				$('.main-news-block').removeClass('not-active');
+				$('.partners-news-block').removeClass('active-news-block');
+
+				$('#news-button1').addClass('active-news-button');
+				$('.main-news-block').addClass('active-news-block');
+				$('.partners-news-block').addClass('not-active');
+			});
+
+			$('#news-button2').click(function(){
+				$('#news-button1').removeClass('active-news-button');
+				$('.main-news-block').removeClass('active-news-block');
+				$('.partners-news-block').removeClass('not-active');
+
+				$('#news-button2').addClass('active-news-button');
+				$('.main-news-block').addClass('not-active');
+				$('.partners-news-block').addClass('active-news-block');
+			});
+
+
+			function initSliderNews() {
+				function slidenews(slideId) {
+					let width = $('.in-slide').width() * (slideId - 1);
+					$('.news-slider > .slider-wrapper').css('transform', `translateX(-${width}px)`);
+					$(`.slider-menu > li`).removeClass('active');
+					$(`.slider-menu > li[data-slide-id="${slideId}"]`).addClass('active');
+					$('.slide-name').html($(`.slider-menu > li[data-slide-id="${slideId}"]`).html());
+				}
+
+				var slidesCount = 0;
+				var currentSlide = 1;
+				var slideInterval = 3000;
+				var noSwap = false;
+
+				$('.news-slider-indicator').append(`<div class="slider-bottom"><ul class="slider-menu"></ul></div>`);
+
+				$('.news-slider > .slider-wrapper > .in-slide').each((index, elem) => {
+					let slide = $( elem );
+					slide.data('slide-id', index + 1);
+
+					// slide.children('label').children('label').wrap('<div class="slider-info"></div>');
+					// slide.children('.slider-info').prepend('').
+
+					slide.children('img').wrap('<div class="slide-image"></div>');
+					slide.children('.slide-image');
+					// .prepend('<div class="filter"></div>')
+					let slideButton = slide.children('li');
+					$('.news-slider-indicator .slider-menu').append(`<li data-slide-id="${++slidesCount}"></li>`);
+					// ${slideButton.html()}
+					slide.children().wrapAll(`<a href="${slide.data('url')}"></a>`);
+					slideButton.remove();
+				});
+
+				$('.slider-menu > li:first-child').addClass('active');
+				$('.slide-name').html($('.slider-menu > li:first-child').html());
+
+				$('.slider-menu').on('click', 'li', elem => {
+					let slideId = $( elem.target ).data('slide-id');
+					noSwap = true;
+					currentSlide = slideId;
+					slidenews(slideId);
+				});
+
+				setInterval(function() {
+					if (!noSwap) {
+						if (++currentSlide > slidesCount)
+							currentSlide = 1;
+						slidenews(currentSlide);
+					}
+					else
+						noSwap = false;
+				}, slideInterval);
+			}
+
+			initSliderNews();
+		});
+	</script>
+</html>

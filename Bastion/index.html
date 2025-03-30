@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section id="head">
+        <div class="head">
+            <div class="head_top desktop-view">
+                <div class="container flex-row head_top">
+                    <p>Казань ул.Гвардейская 16Б переулок Гастелло</p>
+                    <p>Тел. <a href="tel:+78432536320">+7(843) 253-63-20</a> <a href="tel:+78432536310">+7(843) 253-63-10</a></p>
+                </div>
+            </div>
+            <div class="head_down">
+                <div class="head_logo">
+                    <img src="images/logo.svg" alt="Logo">
+                </div>
+                <div class="container head_down">
+                    <div class="menu">
+                        <a href="">
+                            <img src="images/menu.svg" alt="burger">
+                            <p class="desktop-view">Меню</p>
+                        </a>
+                    </div>
+                    <div class="menu_right">
+                        <a href="" class="desktop-view">Поиск</a>
+                        <a href="" class="desktop-view">Сравнение <div class="info_ellipse">2</div></a>
+                        <a href="">Заказы <div class="info_ellipse">5</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="slider">
+        <div class="container">
+            <div class="slider">
+               <a class="desktop-view" href=""><img src="images/slide1.png" alt="bastion"></a>
+               <a class="mobile-view" href=""><img src="images/slide1mobile.png" alt="bastion"></a>
+            </div>
+            <div class="slidebar">
+                <div class="point _activ" onclick="currentDiv(1)"></div>
+                <div class="point" onclick="currentDiv(2)"></div>
+                <div class="point" onclick="currentDiv(3)"></div>
+                <div class="point"onclick="currentDiv(4)"></div>
+                <div class="point"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="catalog">
+        <div class="container">
+            <div class="catalog mobile-wrapper">
+                <h2>Каталог</h2>
+                <div class="cards">
+                    <a href=""><div class="card">
+                        <div class="title_card">
+                            <h3>Входные двери</h3>
+                            <p>Большой выбор дверей<br> с разными особенностями<br> и зарактеристиками</p>
+                        </div>
+                        <div class="img_card"><img src="images/door.png" alt="Door"></div>
+                    </div></a>
+                    <a href=""><div class="card">
+                        <div class="title_card">
+                            <h3>Двери для котеджей и домов</h3>
+                            <p>Высококачественные двери для загородных домов</p>
+                        </div>
+                        <div class="img_card"><img src="images/door2.png" alt="Door"></div>
+                    </div></a>
+                    <a href=""><div class="card">
+                        <div class="title_card">
+                            <h3>Распродажа образцов</h3>
+                            <p>Эксклюзивные двери с индивидуальным дизайном и проработкой</p>
+                        </div>
+                        <div class="img_card"><img src="images/door3.png" alt="Door"></div>
+                    </div></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="assortment">
+        <div class="container">
+            <div class="catalog mobile-wrapper">
+                <h2>Ассортимент</h2>
+                <div class="cards">
+                    <a href=""><div class="card">
+                        <div class="title_card">
+                            <h3>Смарт системы</h3>
+                            <p>Смарт замки, смарт глазки для вашей двери</p>
+                        </div>
+                        <div class="img_card"><img src="images/smart.png" alt="smart"></div>
+                    </div></a>
+                    <a href=""><div class="card">
+                        <div class="title_card">
+                            <h3>Домашние пылесосы</h3>
+                            <p>Инновационные пылесосы 21-го века</p>
+                        </div>
+                        <div class="img_card"><img src="images/hoover.png" alt="Hoover"></div>
+                    </div></a>
+                    <a href=""><div class="card">
+                        <div class="title_card">
+                            <h3>Автоматические ворота</h3>
+                            <p>Лучшее решение для удобства</p>
+                        </div>
+                        <div class="img_card"><img src="images/gates.png" alt="gates"></div>
+                    </div></a>
+                    <a href=""><div class="card">
+                        <div class="title_card">
+                            <h3>Деревянные евро конструкции</h3>
+                            <p>Деревянные окна, двери, HS-portal</p>
+                        </div>
+                        <div class="img_card"><img src="images/wood.png" alt="wood"></div>
+                    </div></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="door_prestige">
+        <div class="container">
+            <div class="door_prestige ">
+                <div class="prestige_title">
+                    <h3>Двери престиж</h3>
+                    <h4>Двери престиж являются экслюзивным производством с индивидуальным дизайном</h4>
+                    <p>Вы можете ознакомиться с нашими работами категории Престиж</p>
+                    <a href="#" class="desktop-view"><div class="buttom"><p>Наши работы</p></div></a>
+                </div>
+                <div class="prestige_img">
+                    <div class="pre_door"><img src="/images/prestige1.png" alt="prestige door"></div>
+                    <div class="pre_door"><img src="/images/prestige2.png" alt="prestige door"></div>
+                    <div class="pre_door"><img src="/images/prestige3.png" alt="prestige door"></div>
+                </div>
+                <a href="#" class="mobile-view"><div class="buttom"><p>Наши работы</p></div></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="baner">
+        <div class="container">
+            <div class="baner">
+                <div class="wrapper">
+
+                    <div class="baner_left">
+                        <p>Распродажа новых дверей <span class="bold_door">“Антарес”</span></p>
+                        <div class="bener_inf"><h2>Действие акции до 20.07.2022</h2></div>
+                    </div>
+                    <div class="wrapper_logo">
+                        <img src="/images/bastion.png" alt="logo">
+                    </div>
+                    <div class="baner_right">
+                        <img src="/images/door25.png" alt="door-25%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="working">
+        <div class="container">
+            <div class="working mobile-wrapper">
+                <h3>Как мы работаем</h3>
+                <div class="work_info">
+                     <span>0<span>1</span></span>
+                     <img class="mobile-view" src="images/work.png" alt="work.png">
+                    <h3>Выбор двери на сайте или в нашем салоне</h3>
+                    <p>В нашем салоне вы получите квалифицированную консультацию наших специалистов</p>
+                </div>
+                <div class="work_info">
+                    <span>0<span>2</span></span>
+                    <img class="mobile-view" src="images/work.png" alt="work.png">
+                   <h3>Профессиональный замер и индивидуальный подбор</h3>
+                   <p>Замер производиться квалифицированными специалистами Bastion. Каждая дверь индивидуально подбирается под клиента</p>
+                </div>
+                <div class="work_info">
+                    <span>0<span>3</span></span>
+                    <img class="mobile-view" src="images/work.png" alt="work.png">
+                    <h3>Доставка и монтаж</h3>
+                    <p>Мы доставим вашу дверь и сделаем качественный монтаж</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="froze">
+        <div class="froze_box">
+            <div class="container froze">
+                <div class="froze_left mobile-wrapper">
+                    <h2>Закажите проффесиональный замер</h2>
+                    <h3>Мы сделаем качественный замер во избежание ошибок</h3>
+                    <div class="froze_points">
+                        <div class="froze_point">
+                            <img src="/images/carbon_tool-kit.png" alt="icon">
+                            <p>Выбор оптимального вида крепежа</p>
+                        </div>
+                        <div class="froze_point">
+                            <img src="/images/bx_ruble.png" alt="icon">
+                            <p>Определение стоимости дополнительных работ</p>
+                        </div>
+                    </div>
+                    <div class="froze_points">
+                        <div class="froze_point">
+                            <img src="/images/bx_analyse.png" alt="icon">
+                            <p>Анализ условий экспуатации вашей двери</p>
+                        </div>
+                        <div class="froze_point">
+                            <img src="/images/bi_bar-chart-line.png" alt="icon">
+                            <p>Лучшее решение для расположение порога</p>
+                        </div>
+                    </div>
+                    <a href="">
+                        <div class="buttom"><p>Заказать замер</p></div>
+                    </a>
+                </div>
+                <img class="desktop-view" src="/images/froze.png" alt="froze">
+            </div>
+        </div>
+    </section>
+
+    <section id="clients">
+        <div class="container clients">
+            <h3>Наши клиенты</h3>
+            <div class="clients">
+                <div class="client"><img src="/images/unistroi.png" alt="Унистрой"></div>
+                <div class="client"><img src="/images/suvar.png" alt="СУВАРСТРОИТ"></div>
+                <div class="client"><img src="/images/vamin.png" alt="Вамин"></div>
+                <div class="client"><img src="/images/bkk.png" alt="БКК"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="news">
+        <div class="container news">
+            <h3>Новости</h3>
+            <div class="news_box">
+                <div class="new_news">
+                    <span>22.07.2022</span>
+                    <img src="/images/news.png" alt="news">
+                    <h3>Двери Премьера 4 и Премьера 1 Термо в наличии</h3>
+                    <div class="news_inf">
+                        <img src="/images/eye.png" alt="viewer">
+                        <span>23405</span>
+                        <img src="/images/thumbs-up.png" alt="likes">
+                        <span>54</span>
+                    </div>
+                </div>
+                <div class="new_news">
+                    <span>22.07.2022</span>
+                    <img src="/images/news.png" alt="news">
+                    <h3>Двери Премьера 4 и Премьера 1 Термо в наличии</h3>
+                    <div class="news_inf">
+                        <img src="/images/eye.png" alt="viewer">
+                        <span>23405</span>
+                        <img src="/images/thumbs-up.png" alt="likes">
+                        <span>54</span>
+                    </div>
+                </div>
+                <div class="new_news">
+                    <span>22.07.2022</span>
+                    <img src="/images/news.png" alt="news">
+                    <h3>Двери Премьера 4 и Премьера 1 Термо в наличии</h3>
+                    <div class="news_inf">
+                        <img src="/images/eye.png" alt="viewer">
+                        <span>23405</span>
+                        <img src="/images/thumbs-up.png" alt="likes">
+                        <span>54</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="faq">
+        <div class="container faq">
+            <h3>Полезно знать</h3>
+            <div class="faq_box">
+                <details>
+                    <summary><h4>Какие размеры у ваших дверей?</h4></summary>
+                    <p>Наши двери изготавливаются по индивидуальным размерам вашего <br>
+                        проема с шагом 10мм. Чтобы узнать какого размера дверь вам нужна <br>
+                        необходимо вызвать замерщика</p>
+                </details>
+                <details>
+                    <summary><h4>Какие модели дверей у вас с зеркалом?</h4></summary>
+                    <p>Зеркало на двери — это декоративный элемент наружной или внутренней <br>
+                        отделки. Такую отделку можно установить на дверь любой конструкции и <br>
+                        комплектации. Цвет панели, обрамляющей зеркало, также может быть любым.</p>
+                </details>
+                <details>
+                    <summary><h4>Сколько стоит нормальная/бюджетная/обычная дверь для квартиры?</h4></summary>
+                    <p>Ценовой диапазон наших дверей начинается от 0000 рублей. В каталоге на нашем сайте вы <br>
+                        можете воспользоваться удобным фильтром по параметрам и подобрать наиболее выгодное <br>
+                        решение. Если вам потребуется помощь — мы всегда рады вам помочь</p>
+                </details>
+                <details>
+                    <summary><h4>Какие варианты дверей подходят на улицу</h4></summary>
+                    <p>Наиболее подходящие для уличной эксплуатации - утепленные двери с <br>
+                        терморазрывом и влагостойкими панелями. Терморазрыв избавит от промерзания и <br>
+                        конденсата, а дополнительное утепление позволит не пускать холодный воздух с <br>
+                        улицы, обеспечив тем самым сохранность тепла в доме даже в самый сильный мороз</p>
+                    <br><br>
+                    <p>Влагостойкие уличные панели обладают также стойкостью к <br>
+                        ультрафиолету и сохраняют красивый внешний вид долгие годы</p>
+                </details>
+                <details>
+                    <summary><h4>Сколько у вас стоит дверь размерами 930х2060</h4></summary>
+                    <p>Стоимость двери зависит не только от размера. На стоимость двери <br>
+                        влияют такие параметры как:</p>
+                        <p>&bull;   модель двери</p>
+                        <p>&bull;   конструкция двери</p>
+                        <p>&bull;   количество и модель замков</p>
+                        <p>&bull;   модель фурнитуры</p>
+                        <p>&bull;   модель наружней и внутренней отделки</p>
+                        <p>&bull;   прочие особенности комплектации</p>
+                        <br>
+                        <p>Для того, чтобы получить предварительный расчет стоимости стоит <br>
+                            посетить наш салон по адресу Гвардейская 16Б и выбрать желаемые <br>
+                            параметры с помощью наших консультантов</p>
+                        <span class="faq_down">Чтобы получить полный расчет стоимости двери BASTION необходимо<br>перед посещением салона заказать замер</span><br>
+                        <div class="faq_box_down"></div>
+                </details>
+            </div>
+        </div>
+    </section>
+    
+    <section id="feedback">
+        <div class="feedback_back">
+            <div class="container feedback">
+                <h2>Заказать консультацию или замер</h2>
+                <div class="feedb_top">
+                    <div class="left">
+                        <div>
+                            <form> 
+                                <div>
+                                    <div class="feedb_in"> <input type="text" name="name" placeholder="Имя"> </div> 
+                                </div> 
+                                <div>
+                                    <div class="feedb_in"> <input type="text" placeholder="Телефон"> </div> 
+                                </div> 
+                                <input type="checkbox" id="politics" onclick="check();" value="" autocomplete="off"/>
+                                <span class="politicstxt">Даю согласие на обработку персональных данных</span> 
+
+                                <div> 
+                                    <div> <button type="submit" name="submit" class="submit" disabled="" value="Отправить">Отправить заявку</button> </div> 
+                                </div> 
+                            </form> 
+                            <script>
+                                function check() {
+                                var submit = document.getElementsByName('submit')[0];
+                                if (document.getElementById('politics').checked)
+                                submit.disabled = '';
+                                else
+                                submit.disabled = 'disabled';
+                                }
+                                </script>
+                                
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="feedb_info">
+                            <h3>Адрес</h3>
+                            <p>г. Казань, <br>ул. Гвардейская16-б<br>(Переулок Гастелло)</p>
+                        </div>
+                        <div class="feedb_info">
+                            <h3>Режим работы</h3>
+                            <p>пн-пт: 9:00-19:00 <br><br>cб: 10:00-17:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="feedb_down">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2667.5516067417425!2d49.16589688342038!3d55.79090092555321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x415ead82afc99fd3%3A0xebd6cc5ed3f1bd7e!2sBastion!5e0!3m2!1sru!2sru!4v1659314946268!5m2!1sru!2sru" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="footer">
+            <div class="container flex-row">
+                <div class="logo_footer">
+                    <a href=""><img src="images/logo2.svg" alt="LOGO"></a>
+                    <p>Работаем с 1997-го года</p>
+                    <div class="social_footer">
+                        <a href=""><img src="images/whatsapp.svg" alt="WhatsApp"></a>
+                        <a href=""><img src="images/vk.svg" alt="VK"></a>
+                    </div>
+                </div>
+                <div class="footer_info flex-row">
+                    <div class="footer_content flex-column">
+                        <div class="flex-column height">
+                            <div class="footer_line"><a href=""><h2>Компания</h2></a></div>
+                            <div class="footer_line"><a href="">Услуги</a></div>
+                            <div class="footer_line"><a href="">Акции</a></div>
+                            <div class="footer_line"><a href="">Новости</a></div>
+                            <div class="footer_line"><a href="">Полезно знать</a></div> 
+                            <div class="footer_line"><a href="">Контакты</a></div>
+                        </div>
+                        <div class="flex-column">
+                            <div class="footer_line"><a href=""><h2>Адрес</h2></a></div>
+                            <div class="footer_line"><a href="">г. Казань,<br>ул. Гвардейская 16-б</a></div>
+                        </div>
+                        
+                    </div>
+                    <div class="footer_content flex-column">
+                        <div class="flex-column height">
+                            <div class="footer_line"><a href=""><h2>Каталог</h2></a></div>
+                            <div class="footer_line"><a href="">Двери</a></div>
+                            <div class="footer_line"><a href="">Фурнитура</a></div>
+                            <div class="footer_line"><a href="">Замки</a></div>
+                            <div class="footer_line"><a href="">Доп опции</a></div>
+                            <div class="footer_line"><a href="">Смарт системы</a></div>
+                        </div>
+                        <div class="flex-column">
+                            <div class="footer_line"><a href=""><h2>Режим работы</h2></a></div>
+                            <div class="footer_line"><a href="">пн-пт: 9:00-19:00</a></div>
+                            <div class="footer_line"><a href="">cб: 10:00-17:00</a></div>
+                        </div>
+                    </div>
+                    <div class="footer_content flex-column">
+                        <div class="flex-column height">
+                            <div class="footer_line"><a href=""><h2>Ассортимент</h2></a></div>
+                            <div class="footer_line"><a href="">Пылесосы</a></div>
+                            <div class="footer_line"><a href="">Автоматические ворота</a></div>
+                            <div class="footer_line"><a href="">HS-Portal</a></div>
+                            <div class="footer_line"><a href="">Деревянные окна</a></div>
+                        </div>
+                        <div class="flex-column">
+                            <div class="footer_line"><a href=""><h2>Телефон</h2></a></div>
+                            <div class="footer_line"><a href="">+7(843) 253-63-20</a></div>
+                            <div class="footer_line"><a href="">+7(843) 253-63-10</a></div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </section>
+    <script src="scripts/slider.js"></script>
+</body>
+</html>

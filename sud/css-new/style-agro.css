@@ -1,0 +1,1055 @@
+
+
+.black-text {
+	color: #010101;
+}
+
+.projects-olimpia-title {
+	width: 100%;
+	padding-top: 100px;
+	z-index: 2;
+	color: #010101;
+	
+}
+
+.projects-olimpia-title > label {
+	font-size: 144px;
+	line-height: 172px;
+    transition: all 2s ease 0.5s;
+
+}
+
+.projects-olimpia-title > .projects-olimpia-title-menu {
+	width: 100%;
+	margin-top: 50px;
+	padding: 20px 0 0;
+	border-top: 3px #101010 solid;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.projects-olimpia-title > .projects-olimpia-title-menu a{
+	width: auto;
+	font-size: 18px;
+	line-height: 21px;
+	list-style-type: none;
+	padding: 0 4% 0 0;
+}
+
+.projects-olimpia-title > .projects-olimpia-title-menu a:hover {
+	color: #0A6CFF;
+}
+
+
+.projects-olimpia-title-img {
+	margin-top: 80px;
+	width: 100%;
+	height: auto;
+}
+
+.projects-olimpia-title-img > .projects-olimpia-title-img-button {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.projects-olimpia-title-img > .projects-olimpia-title-img-button button {
+	width: auto;
+	padding: 0;
+	height: auto;
+	border: 0;
+	margin-top: -32px;
+	background: rgba(0, 0, 0, 0);
+}
+
+.projects-olimpia-title-img > .projects-olimpia-title-img-button button img{
+	width: 65px;
+	height: 65px;
+}
+
+.projects-olimpia-title-img > img {
+	top: 0;
+	position: absolute;
+	width: 100vw;
+	height: 780px;
+	z-index: -1;
+}
+
+.content-projects {
+	margin-top: 800px;
+}
+
+.project-sports-city {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	overflow: hidden;
+}
+
+
+
+.project-sports-city > p {
+	font-size: 24px;
+	line-height: 29px;
+	padding-right: 30px;
+}
+
+.project-sports-city > img {
+	width: auto;
+	height: auto;
+	padding: 20px;
+}
+
+
+
+.project-olimpia-hotels {
+	margin-top: 250px;
+	height: max-content;
+}
+
+.project-olimpia-hotels .image-block-hotels-parent {
+	display: flex;
+	justify-content: center;
+	
+}
+
+.project-olimpia-hotels .image-block-hotels {
+    background-color: white;
+	overflow:  hidden;
+}
+
+.project-olimpia-hotels label {
+	font-size: 144px;
+	line-height: 172px;
+}
+
+.project-olimpia-hotels  img {
+	position: absolute;
+	top: 86px;
+	width: 100%;
+	height: auto;
+	left: 0;
+	z-index: -1;
+}
+
+
+.project-crimea {
+	width: 100%;
+}
+
+.project-crimea >.filter {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 550px;
+	background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 54.17%);
+	transform: matrix(1, 0, 0, -1, 0, 0);
+	z-index: 0;
+}
+
+.project-crimea > img {
+	position: absolute;
+	width: 100%;
+	height: 550px;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.project-crimea > .project-crimea-title {
+	width: 100%;
+	height: 550px;
+	margin-top: 80px;
+	z-index: 0;
+}
+
+.project-crimea > .project-crimea-title > label {
+	width: 100%;
+	font-size: 144px;
+	line-height: 172px;
+	white-space: nowrap;
+}
+
+.project-crimea > .project-crimea-content {
+	width: 100%;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+}
+
+.project-crimea > .project-crimea-content > p {
+	max-width: 625px;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.agro-olimpia-title {
+	width: 100%;
+	padding-top: 150px;
+	z-index: 2;
+	color: #010101;
+}
+
+.agro-olimpia-title > label {
+	font-size: 64px;
+	line-height: 76,38px;
+}
+
+.agro-olimpia-title > .agro-olimpia-title-menu {
+	width: 100%;
+	padding: 20px 0 0;
+	border-top: 3px #101010 solid;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 10px;
+}
+
+.agro-olimpia-title > .agro-olimpia-title-menu a{
+	width: auto;
+	font-size: 18px;
+	line-height: 21px;
+	list-style-type: none;
+	padding: 0 4% 0 0;
+}
+
+.agro-olimpia-title > .agro-olimpia-title-menu a:hover {
+	color: #0A6CFF;
+}
+
+.project-olimpia-voronezh {
+	width: 100%;
+	height: max-content;
+	margin-top: 50px;
+
+
+}
+
+.wrapper-img{
+	display: flex;
+	align-items: center;
+}
+
+.project-olimpia-voronezh  .image-block-voronezh {	
+	position: absolute;
+	width: 100%;
+	height: auto;
+
+}
+
+.project-olimpia-voronezh  .image-block-voronezh > p {
+	font-size: 140px;
+	color: #fff;
+}
+
+.project-olimpia-voronezh  img {
+	max-width: 1300px;
+	width: 100%;
+	height: auto;
+	z-index: -1;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-olimpia-voronezh > .agro-hold-h1 {
+	margin-top: 50px;
+	font-size: 64px;
+	text-align: center;
+}
+
+
+.project-olimpia-voronezh > .agro-box-voronezh {
+	margin-top: 50px;
+	font-size: 18px;
+	/*border-left: 1px solid rgb(0, 0, 0);*/
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%; 
+	height: 170px;
+}
+
+
+.project-olimpia-voronezh > .agro-box-voronezh > .box {
+	/*display: table-cell;
+	vertical-align:middle;
+	text-align: center;
+	width: 244px;
+	height: 172px;*/
+	width: 100%;
+	border-right: 1px solid rgb(0, 0, 0);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 40px;
+}
+
+.project-olimpia-voronezh > .agro-box-voronezh > .box > .box-text {
+	text-align: center;
+	/*width: 244px;*/
+	/*width: 137px;*/
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.project-olimpia-voronezh > .agro-box-voronezh > .box:first-child {
+	border-left: 1px solid rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+.box-agro-info-voronezh > p {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 36px;
+}
+
+.box-agro-info-voronezh > .agro-info-box {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	margin-top: 20px;
+} 
+
+.box-agro-info-voronezh > .agro-info-box > p {
+	max-width: 952px;
+	line-height: 29px;
+	font-size: 24px;
+	margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.project-stadiums {
+	width: 100%;
+}
+
+.project-stadiums > .agro-hold-h1 {
+	margin-top: 50px;
+	font-size: 64px;
+}
+
+.project-stadiums > img {
+	width: 100%;
+	height: 670px;
+	position: absolute;
+	top: 172px;
+	left: 0;
+	z-index: -1;
+}
+
+.project-stadiums > .project-staduims-title {
+	width: 100%;
+	height: calc(670px + 172px);
+	margin-top: 80px;
+	z-index: 0;
+	text-align: center;
+}
+
+.project-stadiums > .project-staduims-title > label {
+	width: 100%;
+	font-size: 144px;
+	line-height: 172px;
+	color: #FFFFFF;
+}
+
+
+.project-stadiums > .project-stadiums-content {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.project-stadiums > .project-stadiums-content p {
+	font-size: 24px;
+	line-height: 29px;
+	opacity: 0;
+	transform: translateY(50%);
+	z-index: -5;
+}
+
+.project-stadiums > .project-stadiums-content > p {
+	width: 70%;
+	margin: 40px 0;
+}
+
+.project-stadiums > .project-stadiums-content > .project-stadiums-columns {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin: 0 -20px;
+}
+
+.project-stadiums > .project-stadiums-content > .project-stadiums-columns > .project-stadiums-column {
+	width: 50%;
+	margin: 0 20px;
+	overflow: hidden;
+}
+
+
+.project-stadiums > .project-stadiums-content > .project-stadiums-columns > .project-stadiums-column > img {
+	width: 100%;
+	height: auto;
+}
+
+.project-stadiums > .project-stadiums-content p:nth-child(1) {
+	margin-bottom: 50px;
+}
+
+.project-stadiums > .project-stadiums-content p:nth-child(2) {
+    margin-top: 60px;
+}
+
+
+
+.other-footer {
+	background-color: #FFFFFF;
+}
+
+
+
+
+.news-slider-indicator > .slider-bottom {
+	top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 60px;
+	margin-top: 30px;
+}
+
+.news-slider-indicator > .slider-bottom > .slider-menu {
+	display: flex;
+	list-style-type: none;
+	width: 25%;
+}
+
+.news-slider-indicator > .slider-bottom > .slider-menu > li {
+	display: flex;
+	width: 100%;
+	height: 5px;
+	background-color: #C4C4C4;
+	color: black;
+	margin: 0 10px;
+	cursor: pointer;
+	transition: .15s ease;
+}
+
+.news-slider-indicator > .slider-bottom > .slider-menu > li.active {
+	color: white;
+	background-color: #000000;
+}
+
+.news-slider-indicator > .slider-bottom > .slider-menu > li:hover {
+	background-color: #DFF0FF;
+}
+
+.news-slider-indicator > .slider-bottom > .slider-menu > li.active:hover {
+	background-color: #204A70;
+}
+
+.news-slider-indicator > .slider-bottom > .slider-menu > li:first-child {
+	margin-left: 0;
+}
+
+.news-slider-indicator > .slider-bottom > .slider-menu > li:last-child {
+	margin-right: 0;
+}
+
+
+.news-slider-block {
+	width: 100%;
+	height: auto;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(0, 0, 0, 0.25);
+	padding: 10px;
+}
+
+.news-slider-block > .news-slider {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.news-slider-block > .news-slider > .slider-wrapper {
+	display: flex;
+	width: 100%;
+	transition: .32s ease-in-out;
+}
+
+.news-slider-block > .news-slider > .slider-wrapper .in-slide {
+	position: relative;
+	flex: 0 0 100%;
+}
+
+.news-slider-block > .news-slider > .slider-wrapper .in-slide a {
+	display: block;
+}
+
+.news-slider-block > .news-slider > .slider-wrapper .in-slide .slider-info {
+	display: flex;
+	align-items: flex-start;
+	position: absolute;
+	left: 0;
+	top: 0;
+	max-width: 70%;
+	width: 100%;
+	z-index: 1;
+	padding: 50px;
+}
+
+.news-slider-block > .news-slider > .slider-wrapper .in-slide label {
+	font-size: 64px;
+	line-height: 76px;
+	color: #FFFFFF;
+}
+
+.news-slider-block > .news-slider > .slider-wrapper .in-slide small {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 43px;
+	color: #FFFFFF;
+	margin: 180px 0;
+}
+
+.news-slider-block > .news-slider > .slider-wrapper .in-slide .slide-image {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	max-height: 550px;
+}
+
+.news-slider-block > .news-slider > .slider-wrapper .in-slide .slide-image .filter {
+	position: absolute;
+	/*background: linear-gradient(180deg, rgba(50, 48, 48, 0) 26.63%, #242424 97.94%);*/
+	width: 100%;
+	height: 100%;
+}
+
+.news-slider-block > .news-slider > .slider-wrapper .in-slide img {
+	width: 100%;
+	height: 100%;	
+}
+
+
+
+
+
+.news-buttons-mobile {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	margin-top: 60px;
+}
+
+.news-buttons-mobile > .news-button{
+	border: 0;
+	width: 100%;
+	height: 50px;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.news-button.active {
+	background: #FFFFFF;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25), -2px -2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.news-container {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	margin-top: 60px;
+}
+
+.news-container a {
+	display: block;
+	position: relative;
+	z-index: 3;
+}
+
+.news-container > .main-news-block {
+	width: 53%;
+	display: flex;
+	flex-direction: column;
+}
+
+.news-container > .main-news-block .news-separately:first-child {
+	margin-top: 0;
+}
+
+.news-container .news-separately {
+	width: 100%;
+	margin-top: 20px;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	background: #FFFFFF;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.news-container .news-separately > img{
+	width: 220px;
+	height: 150px;
+}
+
+.news-container .news-separately > .news-separately-text {
+	width: auto;
+	height: 100%;
+	padding: 0 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.news-container .news-separately > .news-separately-text > p{
+	font-size: 24px;
+	line-height: 29px;
+	margin: 0;
+}
+
+.news-container .news-separately > .news-separately-text > small {
+	display: block;
+	margin-top: 0;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #787878;
+}
+ 
+.news-container > .partners-news-block {
+	margin-left: 30px;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 10px 15px;
+	background: #FFFFFF;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.news-container > .partners-news-block > label {
+	text-align: center;
+	font-size: 36px;
+	line-height: 43px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+	.container {
+		width: 100%;
+		max-width: auto;
+		padding: 0 10px;
+	}
+
+	.container.full-sized {
+		width: 100% !important;
+		padding: 0;
+	}
+
+
+	.projects-olimpia-title > .projects-olimpia-title-menu a {
+		width: auto;
+		font-size: 12px;
+		line-height: 14px;
+		list-style-type: none;
+		padding: 0 2%;
+	}
+
+	.projects-olimpia-title > .projects-olimpia-title-menu {
+		margin-top: 0;
+	}
+
+	.projects-olimpia-title {
+		margin-top: 20px;
+	}
+
+	.content-projects {
+		margin-top: 200px;
+	}
+
+	.projects-olimpia-title-img > .projects-olimpia-title-img-button button {
+		margin-top: -15px;
+	}
+
+	.projects-olimpia-title-img > .projects-olimpia-title-img-button button img {
+		width: 30px;
+		height: 30px;
+	}
+
+	.project-olimpia-hotels {
+		margin-top: 50px;
+
+	}
+
+	.project-olimpia-hotels > img {
+		height: auto;
+		top: 20px;
+
+	}
+	
+	.project-olimpia-hotels > .image-block-hotels-parent > .image-block-hotels {
+		display: flex;
+		justify-content: center;
+	}
+
+	.project-olimpia-hotels > .image-block-hotels-parent > .image-block-hotels label {
+		font-size: 36px;
+		line-height: 43px;
+	}
+
+
+
+
+	.project-olimpia-hotels > .project-olimpia-hotels-table > ul > li {
+		padding: 0;
+		font-size: 12px;
+		line-height: 14px;
+	}
+
+
+	.projects-olimpia-title > label {
+		font-size: 64px;
+		line-height: 76px;
+		text-align: center;
+	}
+
+	.projects-olimpia-title > p {
+		font-size: 36px;
+		line-height: 43px;
+		text-align: center;
+	}
+
+	.project-olimpia-voronezh {
+		margin-top: 15px;
+	}
+
+	.project-olimpia-voronezh > .agro-hold-h1 {
+		font-size: 36px;
+		margin-top: 10px;
+	}
+
+	.project-olimpia-voronezh > .agro-box-voronezh {
+		font-size: 18px;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 60%;
+		height: max-content;
+		margin: 20px auto;
+	}
+
+
+	.project-olimpia-voronezh > .agro-box-voronezh > .box {
+		width: 100%;
+		border: 0;
+		border-bottom: 1px solid rgb(0, 0, 0);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 10px 0;
+	}
+
+	.project-olimpia-voronezh > .agro-box-voronezh > .box > .box-text {
+		text-align: center;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 12px;
+	}
+
+
+
+	.box-agro-info-voronezh > .agro-info-box {
+		margin-top: 10px;
+	}
+
+	.box-agro-info-voronezh > .agro-info-box {
+		margin-top: 10px;
+	}
+
+	.box-agro-info-voronezh > .agro-info-box > p {
+		max-width: 952px;
+		line-height: 14px;
+		font-size: 12px;
+		margin-left: 0px;
+	}
+
+	.agro-info-img {
+		display: none;
+	}
+
+	.project-olimpia-voronezh > .agro-box-voronezh > .box:first-child {
+		border-left: 0;
+	}
+
+
+	.agro-olimpia-title > label {
+		font-size: 24px;
+		margin-top: 30px;
+	}
+	
+	.agro-olimpia-title > .agro-olimpia-title-menu {
+		margin-top: 1px;
+		padding-top: 8px;
+	}
+
+	.agro-olimpia-title > .agro-olimpia-title-menu a{
+		width: auto;
+		font-size: 12px;
+		line-height: 26px;
+		padding: 0 6% 0 0;
+	}
+
+	.project-sports-city > p {
+		font-size: 14px;
+		line-height: 14px;
+	}
+
+	.projects-olimpia-title-img > img {
+		height: 180px;
+	}
+
+	.project-crimea > .project-crimea-title {
+		height: 130px;
+		text-align: center;
+	}
+
+	.project-crimea > .project-crimea-title > label {
+		padding-top: 20px;
+		font-size: 36px;
+		line-height: 43px;
+	}
+
+	.project-crimea > .project-crimea-title > .filter {
+		height: 130px;
+	}
+
+	.project-crimea > img {
+		height: 130px;
+	}
+
+	.project-crimea > .project-crimea-content > p {
+		width: 100%;
+		font-size: 14px;
+		line-height: 16px;
+	}
+	
+	.project-olimpia-voronezh .image-block-voronezh > p {
+		font-size: 36px;
+		line-height: 43px;
+		padding: 0 13px;
+	}
+
+	.box-agro-info-voronezh > p {
+		font-size: 18px;
+		margin-top: 20px;
+
+	}
+
+	.agro-info-box1 > p, .agro-info-box2 > p, .agro-info-box3 > p, .agro-info-box4 > p  {
+		font-size: 12px;
+		line-height: 14px;
+		margin-left: 0px;
+		padding: 10px;
+	}
+
+	.agro-info-box1 img, .agro-info-box2 img, .agro-info-box3 img, .agro-info-box4 img {
+		display: none;
+	}
+
+	.project-stadiums > .project-staduims-title {
+		height: calc(160px + 43px);
+	}
+
+	.project-stadiums > .project-staduims-title > label {
+		font-size: 36px;
+		line-height: 43px;
+	}
+
+	.project-stadiums > img{
+		height: 160px;
+		top: 43px;
+	}
+
+	.project-stadiums > .agro-hold-h1 {
+		margin-top: 20px;
+		margin-bottom: 10px;
+		font-size: 18px;
+	}
+
+	.project-stadiums > .project-stadiums-content {
+		margin: 0;
+	}
+
+	.project-stadiums > .project-stadiums-content > .project-stadiums-columns  {
+		margin: 0 -5px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.project-stadiums > .project-stadiums-content > .project-stadiums-columns > .project-stadiums-column {
+		margin: 0 5px;
+		width: 100%;
+	}
+
+	.project-stadiums > .project-stadiums-content > .project-stadiums-columns > .project-stadiums-column > p {
+		font-size: 12px;
+		line-height: 14px;
+		margin-bottom: 10px;
+	}
+
+	.project-stadiums > .project-stadiums-content > .project-stadiums-columns > .project-stadiums-column > label {
+		font-size: 18px;
+		line-height: 21px;
+	}
+
+	.project-stadiums > .project-stadiums-content > .project-stadiums-columns > .project-stadiums-column > img {
+		display: none;
+	}
+
+
+
+
+
+
+	#news-button2.active-news-button, .news-container {
+		margin-top: 200px;
+	}
+
+	.news-container {
+		margin-top: 0;
+	}
+
+	.news-container .news-separately {
+		margin-bottom: 10px;
+	}
+
+	.news-container .news-separately > .news-separately-text > p, .news-container .news-separately > .news-separately-text > small {
+		font-size: 12px;
+		line-height: 14px;
+	}
+
+	.news-container .news-separately > img {
+		width: 100px;
+		height: 70px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.project-block1 {
+	transform: translateX(-150%);
+    transition: transform 1s ease 0s;
+}
+
+.project-block1._active, ._active .project-block1 {
+	transform: translateY(0%);
+}
+
+.building-label {
+	display: block;
+	transform: translateY(150%);
+    transition: transform 1s ease 0s;
+}
+
+.building-label._active, ._active .building-label {
+	transform: translateY(0%);
+}
+
+.box-text {
+	transform: scale(0);
+}
+
+.box-text._active {
+	transform: scale(1);
+	transition: all 1s ease 0s;
+}
+
+.agro-info-box {
+	transform: translateY(50%);
+    opacity: 0;
+}
+
+.agro-info-box._active {
+	transition: all 1s ease 0s;
+	transform: translateY(0%);
+    opacity: 1;
+}
+
+.project-stadiums-column._active p {
+	transition: all 1s ease 0s;
+	opacity: 1;
+	transform: translateY(0%);
+}

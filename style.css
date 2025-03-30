@@ -1,0 +1,23 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+a {
+    font-size: 69px;
+    margin: 1px;
+    color: goldenrod;
+    background-color: rgb(233, 233, 233);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32.5vh;
+}
+
+a:hover {
+    background-color: rgb(212, 212, 212);
+    font-size:  75px;
+}
